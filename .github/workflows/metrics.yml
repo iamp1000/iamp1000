@@ -1,4 +1,4 @@
-first_name: Metrics
+first name: Metrics
 on:
   schedule:
     - cron: "0 0 * * *"  # Every day at midnight UTC
@@ -11,54 +11,47 @@ jobs:
       contents: write  # Required for committing and pushing changes
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # Checks out your repo so files can be generated and committed
 
-      - name: Generate Header Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate Header SVG
+        uses: lowighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: header-metrics.svg
+          filename: github-header.svg
           base: header
-          config_timezone: Asia/Kolkata
 
-      - name: Generate Activity Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate Activity SVG
+        uses: lowighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: activity-metrics.svg
+          filename: github-activity.svg
           base: activity
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Kolkata
 
-      - name: Generate Community Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate Community SVG
+        uses: lowighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: community-metrics.svg
+          filename: github-community.svg
           base: community
-          config_timezone: Asia/Kolkata
 
-      - name: Generate Repository Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate Repositories SVG
+        uses: lowighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: repositories-metrics.svg
+          filename: github-repositories.svg
           base: repositories
-          config_timezone: Asia/Kolkata
 
-      - name: Generate Metadata Metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate Metadata SVG
+        uses: lowighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: metadata-metrics.svg
+          filename: github-metadata.svg
           base: metadata
-          config_timezone: Asia/Kolkata
 
       - name: Commit metrics
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.svg || echo "No file to add"
+          git add github-header.svg github-activity.svg github-community.svg github-repositories.svg github-metadata.svg || echo "No files to add"
           git commit -m "update: metrics" || echo "No changes to commit"
           git push || echo "Push failed"
