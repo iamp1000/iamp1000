@@ -34,8 +34,7 @@
 
 ## $ stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamp1000&show_icons=true&theme=radical" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamp1000&theme=radical" height="165"/>
+  <img src="https://github.com/iamp1000/iamp1000/blob/main/github-metrics.svg" alt="GitHub Metrics" width="80%">
 </p>
 
 ---
