@@ -36,21 +36,16 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="https://raw.githubusercontent.com/iamp1000/iamp1000/main/github-metrics.svg" alt="GitHub Metrics" width="80%">
 </p>
 
----
-
-## Currently Vibing 🎧  
+## Spotify Activity
 <p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31yourspotifyuseridhere&cover_image=true&theme=dark&bar_color=53d76c&bar_color_cover=false" alt="Spotify Now Playing" />
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=e9zslzh07ciyg8fo6zglra2wx&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
 </p>
 
----
 
-Fun fact: My username **'iamp1000'** is a twist on *m1000* from *How to Sell Drugs Online (Fast)*,  
-where Moritz used it as his sneaky online alias – but I’m just here coding, not dealing drama. 😼  
-
----
-
-## Connect with me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranav-iamp1000/)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pranav@example.com)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/iamp1000/)  
+## Ping Me
+<p align="center">
+  <a href="https://www.instagram.com/directedbypranav/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="mailto:dhingrapranavv@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/pranav-iamp1000/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://linktr.ee/Pranav16a"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
+</p>
