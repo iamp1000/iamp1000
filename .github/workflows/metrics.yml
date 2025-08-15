@@ -1,40 +1,68 @@
 name: Metrics
-
 on:
-  schedule:
-    - cron: "0 0 * * *"  # Daily at midnight UTC
-  workflow_dispatch:     # Manual trigger
-
-permissions:
-  contents: write       # Needed for pushing commits
-
+  schedule: [{cron: "0 0 * * *"}] # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+  push: {branches: main}
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+      - uses: lowlighter/metrics@latest
         with:
-          persist-credentials: true  # Keep access to GITHUB_TOKEN
-          fetch-depth: 0            # Get full commit history
+          token: ${{ secrets.METRICS_TOKEN }} # Personal access token with repo scope
+          filename: "metrics/activity.svg"
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_limit: 5
+          plugin_activity_filter: all # Show all activity
 
-      - name: Generate all SVGs
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          base: header, activity, community, repositories, metadata
-          filename: github-metrics.svg
-          plugin_isocalendar: yes
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/community.svg"
+          plugin_community: yes
+          plugin_community_limit: 5
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/header.svg"
+          plugin_header: yes
+          plugin_header_user: iamp1000
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/metadata.svg"
+          plugin_metadata: yes
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/repositories.svg"
+          plugin_repositories: yes
+          plugin_repositories_limit: 5
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/languages.svg"
           plugin_languages: yes
-          plugin_habits: yes
-          config_timezone: Asia/Kolkata
+          plugin_languages_limit: 10
+          plugin_languages_details: percentage
 
-      - name: Commit and push
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
-          git add github-metrics.svg
-          git commit -m "chore: update metrics" || echo "No changes to commit"
-          git push origin main
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/habits.svg"
+          plugin_habits: yes
+          plugin_habits_days: 90
+          plugin_habits_facts: 5
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: "metrics/isocalendar.svg"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
