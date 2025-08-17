@@ -11,47 +11,19 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/activity.svg"
+          filename: "metrics.svg"
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_limit: 5
           plugin_activity_filter: all
-          base: activity # Limit base content to activity only
-          base_indepth: false # Disable indepth mode to reduce API load
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/community.svg"
           plugin_community: yes
           plugin_community_limit: 5
-          base: community # Limit base content to community only
-          base_indepth: false
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/repositories.svg"
           plugin_repositories: yes
           plugin_repositories_limit: 5
-          base: repositories # Limit base content to repositories only
-          base_indepth: false
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/languages.svg"
           plugin_languages: yes
           plugin_languages_limit: 10
           plugin_languages_details: percentage
-          base: languages # Limit base content to languages only
-          base_indepth: false
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/header.svg"
           plugin_header: yes
           plugin_header_user: iamp1000
-          base: header # Limit base content to header only
-          base_indepth: false
+          base: header, activity, community, repositories, languages # Include all desired sections
+          base_indepth: false # Minimize API load
