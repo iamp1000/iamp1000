@@ -10,16 +10,15 @@ jobs:
       - uses: actions/checkout@v3
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }} # Personal access token with repo scope
+          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: "metrics/activity.svg"
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_limit: 5
-          plugin_activity_filter: all # Show all activity
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
+          plugin_activity_filter: all
+          base_repositories: 10 # Reduced from 25 to lower API calls
+          base_indepth: false # Disable indepth mode to reduce API load
+          api_limit: 2000 # Cap total API requests per run
 
       - uses: lowlighter/metrics@latest
         with:
@@ -27,31 +26,9 @@ jobs:
           filename: "metrics/community.svg"
           plugin_community: yes
           plugin_community_limit: 5
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/header.svg"
-          plugin_header: yes
-          plugin_header_user: iamp1000
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/metadata.svg"
-          plugin_metadata: yes
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
+          base_repositories: 10
+          base_indepth: false
+          api_limit: 2000
 
       - uses: lowlighter/metrics@latest
         with:
@@ -59,10 +36,9 @@ jobs:
           filename: "metrics/repositories.svg"
           plugin_repositories: yes
           plugin_repositories_limit: 5
-          
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
+          base_repositories: 10
+          base_indepth: false
+          api_limit: 2000
 
       - uses: lowlighter/metrics@latest
         with:
@@ -71,32 +47,16 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 10
           plugin_languages_details: percentage
-
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
+          base_repositories: 10
+          base_indepth: false
+          api_limit: 2000
 
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/habits.svg"
-          plugin_habits: yes
-          plugin_habits_days: 90
-          plugin_habits_facts: 5
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
-          filename: "metrics/isocalendar.svg"
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-
-      - name: Sleep for 30 seconds
-        run: sleep 30
-        if: always()
+          filename: "metrics/header.svg"
+          plugin_header: yes
+          plugin_header_user: iamp1000
+          base_repositories: 10
+          base_indepth: false
+          api_limit: 2000
