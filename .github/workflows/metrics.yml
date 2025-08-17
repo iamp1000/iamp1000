@@ -40,5 +40,7 @@ jobs:
           git push origin main
       - name: Install Inkscape
         run: sudo apt-get update && sudo apt-get install -y inkscape
-      - name: Split metrics SVG
+      - name: Make script executable
+        run: chmod +x .scripts/split-metrics.sh
+      - name: Run split script
         run: ./.scripts/split-metrics.sh
