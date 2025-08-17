@@ -44,3 +44,15 @@ jobs:
         run: chmod +x .scripts/split-metrics.sh
       - name: Run split script
         run: ./.scripts/split-metrics.sh
+      - name: Upload split images
+        uses: actions/upload-artifact@v3
+        with:
+          name: split-metrics
+          path: .scripts/output/*.svg
+      - name: Commit split metrics
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .scripts/output/*.svg
+          git commit -m "Add split metrics"
+          git push
