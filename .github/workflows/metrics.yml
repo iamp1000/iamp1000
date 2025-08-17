@@ -49,10 +49,11 @@ jobs:
         with:
           name: split-metrics
           path: .scripts/output/*.svg
-      - name: Commit split metrics
+      - name: Commit split SVGs
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .scripts/output/*.svg
-          git commit -m "Add split metrics"
-          git push
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add github-header.svg github-languages.svg github-community.svg github-repositories.svg github-metadata.svg
+          git commit -m "chore: update split metrics" || echo "No changes to commit"
+          git push origin mai
