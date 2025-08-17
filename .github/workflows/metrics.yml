@@ -38,3 +38,7 @@ jobs:
           git add metrics.svg
           git commit -m "chore: update metrics" || echo "No changes to commit"
           git push origin main
+      - name: Install Inkscape
+        run: sudo apt-get update && sudo apt-get install -y inkscape
+      - name: Split metrics SVG
+        run: ./.scripts/split-metrics.sh
