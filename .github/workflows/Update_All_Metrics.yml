@@ -40,9 +40,6 @@ jobs:
           SPOTIFY_TOKEN: ${{ secrets.SPOTIFY_TOKEN }}
           LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
         continue-on-error: true
-        retry:
-          max_attempts: 3
-          wait_ms: 1000
 
       - name: Commit & Push All Metrics
         run: |
