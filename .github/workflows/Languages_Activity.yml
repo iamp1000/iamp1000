@@ -2,7 +2,7 @@ name: Languages Activity
 
 on:
   schedule:
-    - cron: "15 0 * * *" # Daily at 00:15 UTC
+    - cron: "33 18 * * *" # 00:15 IST
   workflow_dispatch:
 
 permissions:
