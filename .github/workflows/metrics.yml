@@ -60,15 +60,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: split-metrics
-          path: .scripts/output/*.svg
+          path: github-*.svg
 
       # Commit split SVGs (fixed typo "mai" → "main")
       - name: Commit split SVGs
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-*.svg
-          git add github-header.svg github-languages.svg github-community.svg github-repositories.svg github-metadata.svg
+          git add github-header.svg github-activity.svg github-languages.svg github-community.svg github-repositories.svg
           git commit -m "chore: update split metrics" || echo "No changes to commit"
           git push origin HEAD:main
 
