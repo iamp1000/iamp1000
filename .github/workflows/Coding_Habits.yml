@@ -2,7 +2,7 @@ name: Coding Habits
 
 on:
   schedule:
-    - cron: "0 1 * * *" # Daily at 01:00 UTC
+    - cron: "23 18 * * *" # 00:05 IST
   workflow_dispatch:
 
 permissions:
