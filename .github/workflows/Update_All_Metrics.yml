@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions.checkout@v4
         with:
           ref: main
           fetch-depth: 0
@@ -25,6 +25,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Achievements.svg
+          base: ""
           plugin_achievements: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
@@ -36,6 +37,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Coding_Habits.svg
+          base: ""
           plugin_habits: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
@@ -47,6 +49,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Isometric_Commit_Calendar.svg
+          base: ""
           plugin_isocalendar: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
@@ -58,6 +61,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Languages_Activity.svg
+          base: ""
           plugin_languages: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
@@ -69,6 +73,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Leetcode_Metrics.svg
+          base: ""
           plugin_leetcode: yes
           plugin_leetcode_user: ${{ secrets.LEETCODE_USERNAME }}
           config_timezone: Asia/Kolkata
@@ -83,6 +88,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Repositories_Traffic.svg
+          base: ""
           plugin_traffic: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
@@ -94,6 +100,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Spotify_Playlist_Metrics.svg
+          base: ""
           plugin_music: yes
           plugin_music_mode: playlist
           plugin_music_playlist: https://open.spotify.com/playlist/0dYrEddNow6Me8fxR7Zd2w?si=485330a000744f32
@@ -110,6 +117,7 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Starred_Topics.svg
+          base: ""
           plugin_topics: yes
           config_timezone: Asia/Kolkata
           config_padding: 10
