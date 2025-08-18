@@ -1,8 +1,8 @@
-name: Update All Metrics
+name: Update All Metrics on:
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Daily at midnight UTC
+    - cron: "0 0 * * *"  # Daily at midnight UTC
   workflow_dispatch:
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-metrics:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,7 +19,6 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      # Achievements
       - name: Generate Achievements
         uses: lowlighter/metrics@latest
         with:
@@ -26,8 +26,9 @@ jobs:
           filename: Achievements.svg
           plugin_achievements: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Coding Habits
       - name: Generate Coding Habits
         uses: lowlighter/metrics@latest
         with:
@@ -35,8 +36,9 @@ jobs:
           filename: Coding_Habits.svg
           plugin_habits: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Isometric Commit Calendar
       - name: Generate Isometric Commit Calendar
         uses: lowlighter/metrics@latest
         with:
@@ -44,8 +46,9 @@ jobs:
           filename: Isometric_Commit_Calendar.svg
           plugin_isocalendar: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Languages Activity
       - name: Generate Languages Activity
         uses: lowlighter/metrics@latest
         with:
@@ -53,8 +56,9 @@ jobs:
           filename: Languages_Activity.svg
           plugin_languages: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Leetcode Metrics
       - name: Generate Leetcode Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -62,8 +66,9 @@ jobs:
           filename: Leetcode_Metrics.svg
           plugin_leetcode: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Repositories Traffic
       - name: Generate Repositories Traffic
         uses: lowlighter/metrics@latest
         with:
@@ -71,8 +76,9 @@ jobs:
           filename: Repositories_Traffic.svg
           plugin_traffic: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Spotify Playlist
       - name: Generate Spotify Playlist Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -81,8 +87,9 @@ jobs:
           plugin_music: yes
           plugin_music_playlist_url: https://open.spotify.com/playlist/0dYrEddNow6Me8fxR7Zd2w?si=485330a000744f32
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Starred Topics
       - name: Generate Starred Topics
         uses: lowlighter/metrics@latest
         with:
@@ -90,8 +97,9 @@ jobs:
           filename: Starred_Topics.svg
           plugin_topics: yes
           config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
 
-      # Commit all
       - name: Commit & Push All Metrics
         run: |
           git config --local user.name "github-actions[bot]"
