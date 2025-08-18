@@ -2,7 +2,7 @@ name: Repositories Traffic
 
 on:
   schedule:
-    - cron: "43 18 * * *" # 00:25 IST
+    - cron: "48 18 * * *" # 00:30 IST
   workflow_dispatch:
 
 permissions:
