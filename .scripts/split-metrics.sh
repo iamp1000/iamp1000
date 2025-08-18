@@ -6,7 +6,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 INPUT="${1:-metrics.svg}"       # default input file name
-OUT=".scripts/output"           # where we write the cropped svgs
+OUT="."           # where we write the cropped svgs
 W=480                           # canvas width  (adjust if your SVG width differs)
 H=800                           # canvas height (adjust if your SVG height differs)
 
