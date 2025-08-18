@@ -2,7 +2,7 @@ name: Leetcode Metrics
 
 on:
   schedule:
-    - cron: "15 2 * * *" # Daily at 02:15 UTC
+    - cron: "38 18 * * *" # 00:20 IST
   workflow_dispatch:
 
 permissions:
