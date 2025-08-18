@@ -67,7 +67,9 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
+          git add github-*.svg
           git add github-header.svg github-languages.svg github-community.svg github-repositories.svg github-metadata.svg
           git commit -m "chore: update split metrics" || echo "No changes to commit"
-          git push origin main
+          git push origin HEAD:main
+
+
