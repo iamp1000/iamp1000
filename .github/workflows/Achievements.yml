@@ -2,7 +2,7 @@ name: Achievements
 
 on:
   schedule:
-   - cron: "18 18 * * *" # 00:00 IST
+    - cron: "18 18 * * *" # 00:00 IST
   workflow_dispatch:
 
 permissions:
