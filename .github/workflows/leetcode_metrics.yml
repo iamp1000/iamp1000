@@ -1,0 +1,45 @@
+name: Generate Leetcode Metrics
+
+on:
+  schedule:
+    - cron: "50 18 * * *"  # 00:20 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-leetcode-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Leetcode Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
+          filename: Leetcode_Metrics.svg
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: ${{ secrets.pranav16a }}
+          plugin_leetcode_sections: solved, skills, recent
+          config_timezone: Asia/Kolkata
+          config_padding: 10
+          config_display: large
+        env:
+          LEETCODE_USERNAME: ${{ secrets.pranav16a }}
+        continue-on-error: true
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add Leetcode_Metrics.svg || true
+          git commit -m "chore: update leetcode metrics" || echo "No changes to commit"
+          git push origin main || true
