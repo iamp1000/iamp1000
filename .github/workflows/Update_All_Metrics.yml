@@ -21,7 +21,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Achievements
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@96dde98a034ab75fec7884f9161bc12759275d36
         with:
           token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
           filename: Achievements.svg
@@ -75,12 +75,13 @@ jobs:
           filename: Leetcode_Metrics.svg
           base: ""
           plugin_leetcode: yes
-          plugin_leetcode_user: ${{ secrets.LEETCODE_USERNAME }}
+          plugin_leetcode_user: ${{ secrets.pranav16a }}
+          plugin_leetcode_sections: solved, skills, recent
           config_timezone: Asia/Kolkata
           config_padding: 10
           config_display: large
         env:
-          LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
+          LEETCODE_USERNAME: ${{ secrets.pranav16a }}
         continue-on-error: true
 
       - name: Generate Repositories Traffic
@@ -104,7 +105,8 @@ jobs:
           plugin_music: yes
           plugin_music_mode: playlist
           plugin_music_playlist: https://open.spotify.com/playlist/0dYrEddNow6Me8fxR7Zd2w?si=485330a000744f32
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
+          plugin_music_provider: spotify
+          plugin_music_token: ${{ secrets.c0f2a78fc98f4ca38425b70b2a54ce11 }}
           config_timezone: Asia/Kolkata
           config_padding: 10
           config_display: large
@@ -123,6 +125,31 @@ jobs:
           config_padding: 10
           config_display: large
         continue-on-error: true
+
+      - name: Generate Final GitHub Metrics (rollup)
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRIC_TOKEN_SHHH_IT_IS_A_SECRET }}
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          config_display: large
+          config_padding: 8
+
+          # Safe, reliable plugins
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+
+          plugin_habits: yes
+          plugin_habits_charts: yes
+
+        continue-on-error: true
+
 
       - name: Commit & Push All Metrics
         run: |
