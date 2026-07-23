@@ -56,6 +56,9 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamp1000&theme=radical&hide_border=true" alt="GitHub Streak"/>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iamp1000/iamp1000/main/github-metrics.svg" alt="GitHub Metrics" width="80%">
+</p>
 
 ---
 
