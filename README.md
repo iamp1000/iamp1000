@@ -38,9 +38,7 @@ Figma
 
 <div align="center">
 
-<a href="https://github.com/czl9707/gh-space-shooter">
-  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="GitHub Space Shooter" width="900"/>
-</a>
+<img src="./assets/contribution-arcade.gif" alt="Pranav's custom GitHub contribution arcade" width="900"/>
 
 </div>
 
