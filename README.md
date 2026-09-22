@@ -2,24 +2,30 @@
 
 <h1>Hey there, I'm Pranav! 👋</h1>
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=53B14F&center=true&vCenter=true&width=600&lines=CS+Student+%7C+Data+Science+Enthusiast;Skateboarder+(most+of+the+time+upright);Breaking+things+to+rebuild+them+better" alt="Typing SVG" />
-</p>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=iamp1000&style=flat-square&color=53B14F&label=PROFILE+VIEWS" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/iamp1000?style=flat-square&label=FOLLOWERS&color=53B14F" alt="GitHub followers"/>
-</p>
-
 </div>
 
----
+<table>
+<tr>
+<td width="20%" valign="top">
+
+### About
+
+</td>
+<td valign="top">
 
 A CS student obsessed with Data Science. I thrive on solving puzzles that make your brain work overtime and cranking out code that actually works (most of the time). Off the keyboard, I'm usually skateboarding like a pro (or trying not to faceplant) and breaking things apart just to see if I can put them back together better.
 
----
+</td>
+</tr>
+</table>
 
-### 🛠️ Languages
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🛠️ Languages</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -32,7 +38,10 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
-### ⚙️ Tools & Frameworks
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">⚙️ Tools & Frameworks</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
@@ -50,7 +59,15 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
 </p>
 
----
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td>
 
 ### 🚀 GitHub in Motion
 
@@ -60,25 +77,6 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   </a>
 </p>
 
-<p align="center">
-  <sub>Contributions, but make it a boss fight.</sub>
-</p>
-
----
-
-### 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamp1000&show_icons=true&hide_border=true&theme=radical&rank_icon=github" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamp1000&layout=compact&hide_border=true&theme=radical" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamp1000&theme=radical&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=11,21,27&height=110&section=footer" width="100%"/>
-</p>
+</td>
+</tr>
+</table>
