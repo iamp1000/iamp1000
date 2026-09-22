@@ -1,6 +1,9 @@
 name: Generate Contribution Arcade
 
 on:
+  push:
+    paths:
+      - ".github/workflows/contribution-arcade.yml"
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -28,9 +31,9 @@ jobs:
           output-path: "assets/contribution-arcade.gif"
           strategy: "random"
           fps: 30
+          no-commit: true
 
       - name: Commit generated animation
-        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
