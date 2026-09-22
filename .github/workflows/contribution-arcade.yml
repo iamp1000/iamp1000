@@ -25,3 +25,12 @@ jobs:
           output-path: "assets/contribution-arcade.gif"
           strategy: "random"
           fps: 30
+
+      - name: Commit generated animation
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-arcade.gif
+          git diff --staged --quiet || git commit -m "chore: update contribution arcade"
+          git push
