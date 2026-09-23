@@ -8,8 +8,9 @@
   <sub>COMPUTER SCIENCE &nbsp;·&nbsp; DATA SCIENCE &nbsp;·&nbsp; BUILDING THINGS</sub>
 </p>
 
+</div>
 
-
+<div align="left">
 <p><sup>01</sup></p>
 <h2>ABOUT</h2>
 
@@ -69,11 +70,11 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="./assets/contribution-arcade.gif" alt="Pranav's custom GitHub contribution arcade" width="100%"/>
 </p>
 
+</div>
+
 <br><br>
 
 <div align="center">
-
-<p><sub>CONNECT</sub></p>
 
 <p>
   <a href="mailto:dhingrapranavv@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
