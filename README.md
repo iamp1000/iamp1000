@@ -4,20 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=PRANAV&fontSize=64&fontAlignY=38&desc=Computer%20Science%20%2F%2F%20Data%20%2F%2F%20Systems%20%2F%2F%20Experiments&descAlignY=62&animation=fadeIn&fontColor=ffffff&color=0:0f172a,50:172554,100:312e81" width="100%" alt="Pranav header"/>
 </a>
 
-<br>
-
-<a href="https://github.com/iamp1000">
-  <img src="https://komarev.com/ghpvc/?username=iamp1000&style=flat-square&color=6366f1&label=PROFILE+VIEWS" alt="Profile views"/>
-</a>
-&nbsp;
-<a href="https://github.com/iamp1000?tab=repositories">
-  <img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-111827?style=flat-square" alt="Repositories"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/pranav-iamp1000/">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
 </div>
 
 <br>
@@ -218,45 +204,21 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 08 · FIND ME
+<div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
+<a href="mailto:dhingrapranavv@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-CONTACT-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/pranav-iamp1000/">
+  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/iamp1000">
+  <img src="https://img.shields.io/badge/GITHUB-FOLLOW-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+</a>
 
-### ✉️
-
-<b>EMAIL</b>
-
-<br>
-
-<a href="mailto:dhingrapranavv@gmail.com">dhingrapranavv@gmail.com</a>
-
-</td>
-<td align="center" width="33%">
-
-### 💼
-
-<b>LINKEDIN</b>
-
-<br>
-
-<a href="https://www.linkedin.com/in/pranav-iamp1000/">pranav-iamp1000</a>
-
-</td>
-<td align="center" width="33%">
-
-### 🐙
-
-<b>GITHUB</b>
-
-<br>
-
-<a href="https://github.com/iamp1000">@iamp1000</a>
-
-</td>
-</tr>
-</table>
+</div>
 
 <br>
 
