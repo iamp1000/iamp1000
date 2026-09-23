@@ -19,9 +19,8 @@
 
 </div>
 
-<p align="right">
-  <sup>01</sup> &nbsp; <b>ABOUT</b>
-</p>
+<p><sup>01</sup></p>
+<h2>ABOUT</h2>
 
 <blockquote>
 A CS student obsessed with Data Science. I thrive on solving puzzles that make your brain work overtime and cranking out code that actually works (most of the time). Off the keyboard, I'm usually skateboarding like a pro (or trying not to faceplant) and breaking things apart just to see if I can put them back together better.
@@ -29,9 +28,8 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
 
 <br>
 
-<p align="right">
-  <sup>02</sup> &nbsp; <b>LANGUAGES</b>
-</p>
+<p><sup>02</sup></p>
+<h2>LANGUAGES</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -49,9 +47,8 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
 
 <br>
 
-<p align="right">
-  <sup>03</sup> &nbsp; <b>TOOLS & FRAMEWORKS</b>
-</p>
+<p><sup>03</sup></p>
+<h2>TOOLS &amp; FRAMEWORKS</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
@@ -74,9 +71,8 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
 
 <br><br>
 
-<p align="right">
-  <sup>04</sup> &nbsp; <b>CONTRIBUTION ARCADE</b>
-</p>
+<p><sup>04</sup></p>
+<h2>CONTRIBUTION ARCADE</h2>
 
 <p align="center">
   <img src="./assets/contribution-arcade.gif" alt="Pranav's custom GitHub contribution arcade" width="100%"/>
