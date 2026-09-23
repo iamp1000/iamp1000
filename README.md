@@ -82,22 +82,3 @@ A CS student obsessed with Data Science. I thrive on solving puzzles that make y
   <img src="./assets/contribution-arcade.gif" alt="Pranav's custom GitHub contribution arcade" width="100%"/>
 </p>
 
-<p align="center">
-  <small><i>MY GITHUB CONTRIBUTIONS, TURNED INTO A LITTLE SPACE SHOOTER.</i></small>
-</p>
-
-<br><br><br>
-
-<div align="center">
-
-<h2>KEEP BUILDING.</h2>
-
-<h3><i>KEEP BREAKING.</i></h3>
-
-<h2>KEEP REBUILDING.</h2>
-
-<p><sub>↳ one commit at a time</sub></p>
-
-</div>
-
-<br>
