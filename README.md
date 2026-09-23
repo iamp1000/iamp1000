@@ -8,11 +8,11 @@
 
 <br>
 
+## 01 · ABOUT
+
 <table>
 <tr>
-<td width="62%" valign="top">
-
-## 01 · ABOUT
+<td width="70%" valign="top">
 
 <h3>Building software somewhere between data, systems and the web.</h3>
 
@@ -32,9 +32,7 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 </p>
 
 </td>
-<td width="38%" valign="top" align="center">
-
-<br>
+<td width="30%" valign="middle" align="center">
 
 <img src="https://skillicons.dev/icons?i=python,react,fastapi,pytorch,postgres,git&perline=3" alt="Core technologies"/>
 
@@ -46,8 +44,6 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 <code>2 a.m. // why does this work now?</code>
 
-<br><br>
-
 </td>
 </tr>
 </table>
@@ -56,43 +52,49 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="4" align="center">
 
 ## 02 · CURRENTLY
 
-<table>
-<tr>
-<td width="52">🔭</td>
-<td><b>Building</b><br><sub>Affective Music Intelligence — ML + API + dashboard</sub></td>
+</td>
 </tr>
 <tr>
-<td>🌱</td>
-<td><b>Learning</b><br><sub>Production-minded ML pipelines, APIs & full-stack architecture</sub></td>
-</tr>
-<tr>
-<td>🎯</td>
-<td><b>2026 focus</b><br><sub>Turn experiments into polished, usable software</sub></td>
-</tr>
-<tr>
-<td>💬</td>
-<td><b>Ask me about</b><br><sub>audio ML · data pipelines · why my commits say “fix”</sub></td>
+<td width="25%" valign="top" align="center">
+<b>🔭 BUILDING</b><br><br>
+<sub>Affective Music Intelligence<br>ML + API + dashboard</sub>
+</td>
+<td width="25%" valign="top" align="center">
+<b>🌱 LEARNING</b><br><br>
+<sub>Production-minded ML pipelines<br>APIs & full-stack architecture</sub>
+</td>
+<td width="25%" valign="top" align="center">
+<b>🎯 2026 FOCUS</b><br><br>
+<sub>Turn experiments into<br>polished, usable software</sub>
+</td>
+<td width="25%" valign="top" align="center">
+<b>💬 ASK ME ABOUT</b><br><br>
+<sub>audio ML · data pipelines<br>and why my commits say “fix”</sub>
+</td>
 </tr>
 </table>
 
-</td>
-<td width="50%" valign="top">
+<br>
 
 ## 03 · WHAT I LIKE BUILDING
 
-<p>🧠 <b>DATA & ML</b><br>
-<sub>Analysis · visualization · ML experiments · music intelligence · messy data made useful</sub></p>
-
-<p>⚙️ <b>SOFTWARE</b><br>
-<sub>Full-stack apps · APIs · backend systems · databases · interactive dashboards</sub></p>
-
-<p>🧪 <b>EXPERIMENTS</b><br>
-<sub>Small ideas, weird prototypes and projects that exist because “what if?” won</sub></p>
-
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<h3>🧠 DATA & ML</h3>
+<sub>Analysis · visualization · ML experiments · music intelligence · messy data made useful</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<h3>⚙️ SOFTWARE</h3>
+<sub>Full-stack apps · APIs · backend systems · databases · interactive dashboards</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<h3>🧪 EXPERIMENTS</h3>
+<sub>Small ideas, weird prototypes and projects that exist because “what if?” won</sub>
 </td>
 </tr>
 </table>
