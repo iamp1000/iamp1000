@@ -101,7 +101,7 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 <br>
 
-## 04 · SELECTED WORK
+## 04 · CASE FILES
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 ### 🎵 AFFECTIVE MUSIC INTELLIGENCE
 
-<p><b>THE PROBLEM</b><br>
+<p><b>THE CASE</b><br>
 Mood and emotional tone in music are easy for humans to feel and surprisingly difficult for software to measure.
 </p>
 
@@ -153,7 +153,61 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 05 · THE TOOLBOX
+## 05 · SIDE QUESTS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💡 LIGHTING LAB
+
+**[Summer, Please Turn Off The Lights](https://github.com/iamp1000/summer-turn-the-light-off-)**  
+Local-first Tapo lighting with audio-reactive effects, screen sync, and a LAN control path. The effects are expressive; the debugging should stay measurable.
+
+**[SignalRGB × Tapo](https://github.com/iamp1000/signalrgb-tapo)**  
+A JavaScript plugin that connects SignalRGB to Tapo devices through a local REST bridge. The documented hardware test scope currently names the L900.
+
+</td>
+<td width="50%" valign="top">
+
+### ⌨️ HARDWARE & SYSTEMS
+
+**[Monsgeek M1 — Custom QMK](https://github.com/iamp1000/monsgeek-m1-custom-qmk)**  
+Custom QMK firmware with RGB effects, key layers, and Git macros, built for a personal Monsgeek M1 workflow.
+
+**[C File Operations](https://github.com/iamp1000/File-handeling-software-in-c-)**  
+A C file-I/O exercise covering basic create, open, update, and delete operations.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏸 WEB / SPORTS
+
+**[Gourav Badminton Academy](https://github.com/iamp1000/Gourav-Academy)**  
+A responsive badminton-academy site built with Tailwind CSS and Vite.
+
+**[Ocean — Salon Experience](https://github.com/iamp1000/Ocean)**  
+A luxury-salon web concept using HTML, CSS, GSAP, ScrollTrigger, and Lenis for an image-led, motion-focused presentation.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌲 VISUAL EXPERIMENTS
+
+**[Krison Paradise](https://github.com/iamp1000/krison)**  
+A cabin website concept with an editorial gallery, GSAP interactions, and a warm-neutral / forest color palette.
+
+These are visual experiments as much as frontend builds: layout, motion, and story all have to earn their place.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 06 · THE TOOLBOX
 
 <div align="center">
 
@@ -167,7 +221,7 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 06 · GITHUB SIGNAL
+## 07 · GITHUB SIGNAL
 
 <table>
 <tr>
@@ -192,7 +246,7 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 07 · CONTRIBUTION ARCADE
+## 08 · CONTRIBUTION ARCADE
 
 <div align="center">
 
