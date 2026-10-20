@@ -101,7 +101,7 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 <br>
 
-## 04 · SELECTED WORK
+## 04 · CASE FILES
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ Outside the terminal: <b>skateboarding · music · exploring random things</b>
 
 ### 🎵 AFFECTIVE MUSIC INTELLIGENCE
 
-<p><b>THE PROBLEM</b><br>
+<p><b>THE CASE</b><br>
 Mood and emotional tone in music are easy for humans to feel and surprisingly difficult for software to measure.
 </p>
 
