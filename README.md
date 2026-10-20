@@ -162,10 +162,10 @@ A growing collection of data, web and systems projects built while learning — 
 ### 💡 LIGHTING LAB
 
 **[Summer, Please Turn Off The Lights](https://github.com/iamp1000/summer-turn-the-light-off-)**  
-Local-first Tapo lighting for music, movies, and ambient modes. Rick built the lab; Summer got the on-call shift.
+Local-first Tapo lighting with audio-reactive effects, screen sync, and a LAN control path. The effects are expressive; the debugging should stay measurable.
 
 **[SignalRGB × Tapo](https://github.com/iamp1000/signalrgb-tapo)**  
-A local REST bridge that brings Tapo devices into SignalRGB. The grid is connected; only the L900 is documented as tested.
+A JavaScript plugin that connects SignalRGB to Tapo devices through a local REST bridge. The documented hardware test scope currently names the L900.
 
 </td>
 <td width="50%" valign="top">
@@ -173,10 +173,10 @@ A local REST bridge that brings Tapo devices into SignalRGB. The grid is connect
 ### ⌨️ HARDWARE & SYSTEMS
 
 **[Monsgeek M1 — Custom QMK](https://github.com/iamp1000/monsgeek-m1-custom-qmk)**  
-Custom C firmware, RGB effects, and workflow macros. Mr. Robot, but the keyboard is the machine.
+Custom QMK firmware with RGB effects, key layers, and Git macros, built for a personal Monsgeek M1 workflow.
 
 **[C File Operations](https://github.com/iamp1000/File-handeling-software-in-c-)**  
-A small C file-I/O exercise. The Office, if the paperwork were `FILE *`.
+A C file-I/O exercise covering basic create, open, update, and delete operations.
 
 </td>
 </tr>
@@ -186,10 +186,10 @@ A small C file-I/O exercise. The Office, if the paperwork were `FILE *`.
 ### 🏸 WEB / SPORTS
 
 **[Gourav Badminton Academy](https://github.com/iamp1000/Gourav-Academy)**  
-A sports-academy website concept. Believe in the rally; keep the UI out of the net.
+A responsive badminton-academy site built with Tailwind CSS and Vite.
 
 **[Ocean — Salon Experience](https://github.com/iamp1000/Ocean)**  
-An editorial luxury-salon website concept with motion-led presentation.
+A luxury-salon web concept using HTML, CSS, GSAP, ScrollTrigger, and Lenis for an image-led, motion-focused presentation.
 
 </td>
 <td width="50%" valign="top">
@@ -197,7 +197,7 @@ An editorial luxury-salon website concept with motion-led presentation.
 ### 🌲 VISUAL EXPERIMENTS
 
 **[Krison Paradise](https://github.com/iamp1000/krison)**  
-A cinematic cabin website concept with warm neutrals, forest tones, and a draggable gallery.
+A cabin website concept with an editorial gallery, GSAP interactions, and a warm-neutral / forest color palette.
 
 These are visual experiments as much as frontend builds: layout, motion, and story all have to earn their place.
 
