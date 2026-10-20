@@ -153,7 +153,61 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 05 · THE TOOLBOX
+## 05 · SIDE QUESTS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💡 LIGHTING LAB
+
+**[Summer, Please Turn Off The Lights](https://github.com/iamp1000/summer-turn-the-light-off-)**  
+Local-first Tapo lighting for music, movies, and ambient modes. Rick built the lab; Summer got the on-call shift.
+
+**[SignalRGB × Tapo](https://github.com/iamp1000/signalrgb-tapo)**  
+A local REST bridge that brings Tapo devices into SignalRGB. The grid is connected; only the L900 is documented as tested.
+
+</td>
+<td width="50%" valign="top">
+
+### ⌨️ HARDWARE & SYSTEMS
+
+**[Monsgeek M1 — Custom QMK](https://github.com/iamp1000/monsgeek-m1-custom-qmk)**  
+Custom C firmware, RGB effects, and workflow macros. Mr. Robot, but the keyboard is the machine.
+
+**[C File Operations](https://github.com/iamp1000/File-handeling-software-in-c-)**  
+A small C file-I/O exercise. The Office, if the paperwork were `FILE *`.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏸 WEB / SPORTS
+
+**[Gourav Badminton Academy](https://github.com/iamp1000/Gourav-Academy)**  
+A sports-academy website concept. Believe in the rally; keep the UI out of the net.
+
+**[Ocean — Salon Experience](https://github.com/iamp1000/Ocean)**  
+An editorial luxury-salon website concept with motion-led presentation.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌲 VISUAL EXPERIMENTS
+
+**[Krison Paradise](https://github.com/iamp1000/krison)**  
+A cinematic cabin website concept with warm neutrals, forest tones, and a draggable gallery.
+
+These are visual experiments as much as frontend builds: layout, motion, and story all have to earn their place.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 06 · THE TOOLBOX
 
 <div align="center">
 
@@ -167,7 +221,7 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 06 · GITHUB SIGNAL
+## 07 · GITHUB SIGNAL
 
 <table>
 <tr>
@@ -192,7 +246,7 @@ A growing collection of data, web and systems projects built while learning — 
 
 <br>
 
-## 07 · CONTRIBUTION ARCADE
+## 08 · CONTRIBUTION ARCADE
 
 <div align="center">
 
